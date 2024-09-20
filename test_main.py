@@ -1,3 +1,7 @@
+#git add main.py
+#git commit -m "Add main Python file"
+#git push
+
 import pytest
 from main import add
 
