@@ -7,7 +7,12 @@ print(f"Périmètre du carré: {P}")
 print(f"Aire du carré: {A}")
 print(f"L'aire est-elle supérieure à 5 ? {b}")
 
-def perimetre(x):
-    return x * 4
+def perimetre(c):
+    P = 4*c
+    return P
 
-print(perimetre(c))
+def surface(c):
+    A = c **2
+    return A
+print("le perimetre est:",perimetre(c))
+print("L'air est:", surface(c))
