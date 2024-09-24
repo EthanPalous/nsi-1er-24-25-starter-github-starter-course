@@ -10,4 +10,4 @@ print(f"L'aire est-elle supérieure à 5 ? {b}")
 def perimetre(x):
     return x * 4
 
-print("Périmètre du carré:", perimetre(5))
+print(perimetre(c))
