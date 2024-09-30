@@ -288,3 +288,31 @@ def puissance_ball_ombre(type_adversaire):
 
 #PV = 100 (inchangée)
 #PVA = 30
+
+#   Exercice 10:
+
+#   Début
+#    Saisir pokemon_choisi
+
+#    Si pokemon_choisi = Germignon :
+#        pokemon_rival ← Héricendre
+#    Sinon Si pokemon_choisi = Héricendre :
+#        pokemon_rival ← Kaiminus
+#    Sinon Si pokemon_choisi = Kaiminus :
+#        pokemon_rival ← Germignon
+#    Sinon :
+#        Afficher "Pokémon non valide"
+    
+#    Afficher "Le Pokémon choisi par le rival est :", pokemon_rival
+#Fin
+
+#   Exercice 11:
+
+def starter(pokemon_choisi):
+    if pokemon_choisi == "Bulbizarre":
+        pokemon_rival = "Carapuce"
+    elif pokemon_choisi == "Carapuce":
+        pokemon_rival = "Salamèche"
+    else:
+        pokemon_rival = "Bulbizarre"
+    return pokemon_rival
